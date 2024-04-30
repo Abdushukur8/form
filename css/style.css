@@ -45,7 +45,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 1080px;
     background: url('../img/coffee.jpg') no-repeat;
 
 }
@@ -156,7 +156,7 @@ h1{
     }
     .validation{
         position: absolute;
-        bottom: -10px;
+        top: 580px;
     }
     .form{
         margin: 0;

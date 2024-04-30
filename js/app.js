@@ -164,3 +164,12 @@ document.getElementById('add_form').addEventListener('submit', function (event) 
         window.location.href = 'https://abdushukur8.github.io/coffee_test/';
     }
 })
+
+const maskLoad = document.querySelector('.mask')
+
+window.addEventListener('load', () =>{
+    maskLoad.classList.add('hideLoad')
+    setTimeout(() =>{
+        maskLoad.remove()
+    },1000)
+})

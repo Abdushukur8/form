@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+            
+            <form action="#" class="form" id="add_form">
+                <h1>Регистрация</h1>
+                <div class="input_box">
+                    <input data-required="true" data-min-length="2" type="text" class="input_field" placeholder="Имя">
+                </div>
+
+                <div class="input_box">
+                    <input data-required="true" data-min-length="2" type="text" class="input_field" placeholder="Фамилия">
+                </div>
+
+                <div class="input_box">
+                    <input data-required="true" data-min-length="2" type="text" class="input_field" placeholder="Отчество">
+                </div>
+                <div class="input_box">
+                    <input data-required="true" data-min-length="2" data-email="@" type="text" class="input_field" placeholder="Адрес эл. почты">
+                </div>
+                <div class="input_box password_box">
+                    <input data-required="true" data-min-length="6"  data-password="pass" type="password" id='password' class="input_field passwordEl" placeholder="Пароль">
+                </div>
+                <div class="cross">
+                    <a href="https://abdushukur8.github.io/coffee_test/" class="exit"><img src="./img/cross-black-circular-button_icon-icons.com_73054.png" alt="" class="cross_png"></a>
+                </div>
+                <div class="password_eye">
+                    <img width="25px" class="eye eye_show" src="./img/pngwing.com.png" alt="">
+                    <img width="25px" class="eye eye_hide" src="./img/show.png" alt="">
+                </div>
+                <button type="submit" class="send_btn">Отправить</button>
+            </form>
+            <div class="validation">
+                <ul>
+                    <li data-count-length = '6' class="line line_lengt">length</li>
+                    <li data-uppercase="A" class="line line_uppercase">uppercase</li>
+                    <li data-number="5" class="line line_numbers">numbers</li>
+                    <li data-symbol="1" class="line line_symbols">special symbols</li>
+                </ul>
+            </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
